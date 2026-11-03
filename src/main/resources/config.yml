@@ -1,0 +1,156 @@
+# FlexyCrates configuration. Crate IDs should be lowercase and contain no spaces.
+animation:
+  tick-interval: 2
+keyall-countdown: "4m 33s"
+crates:
+  common:
+    title: "&aCommon Crate"
+    key-name: "&aCommon Key"
+    hologram-keys: "37"
+    rewards: [carrot, iron_ingot, golden_apple, diamond]
+    chances:
+      carrot: 55
+      iron_ingot: 25
+      golden_apple: 15
+      diamond: 5
+  rare:
+    title: "&9Rare Crate"
+    key-name: "&9Rare Key"
+    hologram-keys: "0"
+    rewards: [diamond, golden_apple, enchanted_book]
+    chances: {diamond: 55, golden_apple: 30, enchanted_book: 15}
+  epic:
+    title: "&5Epic Crate"
+    key-name: "&5Epic Key"
+    hologram-keys: "0"
+    rewards: [diamond_block, netherite_ingot, enchanted_book]
+    chances: {diamond_block: 55, netherite_ingot: 10, enchanted_book: 35}
+  legendary:
+    title: "&6Legendary Crate"
+    key-name: "&6Legendary Key"
+    hologram-keys: "0"
+    rewards: [netherite_ingot, diamond_block, enchanted_sword]
+    chances: {netherite_ingot: 35, diamond_block: 45, enchanted_sword: 20}
+  mythic:
+    title: "&dMythic Crate"
+    key-name: "&dMythic Key"
+    hologram-keys: "0"
+    rewards: [netherite_block, enchanted_sword, enchanted_pickaxe]
+    chances: {netherite_block: 20, enchanted_sword: 40, enchanted_pickaxe: 40}
+  ultra:
+    title: "&cUltra Crate"
+    key-name: "&cUltra Key"
+    hologram-keys: "0"
+    rewards: [enchanted_helmet, enchanted_chestplate, enchanted_leggings, enchanted_boots, enchanted_sword, enchanted_pickaxe]
+    chances: {enchanted_helmet: 15, enchanted_chestplate: 15, enchanted_leggings: 15, enchanted_boots: 15, enchanted_sword: 20, enchanted_pickaxe: 20}
+  spawner:
+    title: "&6Spawner Crate"
+    key-name: "&6Spawner Key"
+    hologram-keys: "0"
+    rewards: [spider_spawner, zombie_spawner, skeleton_spawner]
+    chances: {spider_spawner: 50, zombie_spawner: 30, skeleton_spawner: 20}
+  shard:
+    title: "&5Shard Crate"
+    key-name: "&5Shard Key"
+    hologram-keys: "0"
+    rewards: [shard_pickaxe, diamond_block, netherite_ingot]
+    chances: {shard_pickaxe: 10, diamond_block: 50, netherite_ingot: 40}
+  op:
+    title: "&eOP Crate"
+    key-name: "&eOP Key"
+    hologram-keys: "0"
+    rewards: [enchanted_sword, enchanted_pickaxe, netherite_block, enchanted_crossbow]
+    chances: {enchanted_sword: 30, enchanted_pickaxe: 30, netherite_block: 25, enchanted_crossbow: 15}
+
+rewards:
+  carrot:
+    material: CARROT
+    amount: 16
+    name: "&aCarrot"
+    lore: ["&7A tasty reward."]
+  iron_ingot:
+    material: IRON_INGOT
+    amount: 16
+    name: "&fIron Ingot"
+  golden_apple:
+    material: GOLDEN_APPLE
+    amount: 3
+    name: "&6Golden Apple"
+  diamond:
+    material: DIAMOND
+    amount: 8
+    name: "&bDiamond"
+  diamond_block:
+    material: DIAMOND_BLOCK
+    amount: 4
+    name: "&bDiamond Block"
+  netherite_ingot:
+    material: NETHERITE_INGOT
+    amount: 2
+    name: "&8Netherite Ingot"
+  netherite_block:
+    material: NETHERITE_BLOCK
+    amount: 1
+    name: "&8Netherite Block"
+  enchanted_book:
+    material: ENCHANTED_BOOK
+    amount: 1
+    name: "&dEnchanted Book"
+  enchanted_sword:
+    material: NETHERITE_SWORD
+    amount: 1
+    name: "&cCrate Sword"
+    lore: ["&7A powerful prize."]
+    enchants: {SHARPNESS: 5, UNBREAKING: 3, MENDING: 1}
+  enchanted_pickaxe:
+    material: NETHERITE_PICKAXE
+    amount: 1
+    name: "&5Crate Pickaxe"
+    enchants: {EFFICIENCY: 5, UNBREAKING: 3, MENDING: 1, SILK_TOUCH: 1}
+  enchanted_helmet:
+    material: NETHERITE_HELMET
+    amount: 1
+    name: "&dUltra Helmet"
+    enchants: {PROTECTION: 4, UNBREAKING: 3, MENDING: 1}
+  enchanted_chestplate:
+    material: NETHERITE_CHESTPLATE
+    amount: 1
+    name: "&dUltra Chestplate"
+    enchants: {PROTECTION: 4, UNBREAKING: 3, MENDING: 1}
+  enchanted_leggings:
+    material: NETHERITE_LEGGINGS
+    amount: 1
+    name: "&dUltra Leggings"
+    enchants: {PROTECTION: 4, UNBREAKING: 3, MENDING: 1}
+  enchanted_boots:
+    material: NETHERITE_BOOTS
+    amount: 1
+    name: "&dUltra Boots"
+    enchants: {PROTECTION: 4, UNBREAKING: 3, MENDING: 1}
+  enchanted_crossbow:
+    material: CROSSBOW
+    amount: 1
+    name: "&bCrate Crossbow"
+    enchants: {MULTISHOT: 1, QUICK_CHARGE: 3, UNBREAKING: 3, MENDING: 1}
+  spider_spawner:
+    material: SPAWNER
+    amount: 1
+    name: "&5Spider Spawner"
+    lore: ["&dReceive one Spider Spawner"]
+  zombie_spawner:
+    material: SPAWNER
+    amount: 1
+    name: "&2Zombie Spawner"
+    lore: ["&dReceive one Zombie Spawner"]
+  skeleton_spawner:
+    material: SPAWNER
+    amount: 1
+    name: "&fSkeleton Spawner"
+    lore: ["&dReceive one Skeleton Spawner"]
+  shard_pickaxe:
+    material: NETHERITE_PICKAXE
+    amount: 1
+    name: "&5Shard Pickaxe"
+    lore: ["&7Breaks 9 Blocks at Once", "&7Timer runs everywhere; pauses on Auction", "&7Self Destruct: 24 Hours"]
+    enchants: {SILK_TOUCH: 1, EFFICIENCY: 5, UNBREAKING: 3, MENDING: 1}
+    
