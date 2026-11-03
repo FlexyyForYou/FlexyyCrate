@@ -1,0 +1,19 @@
+name: FlexyCrates
+version: 1.0.0
+main: net.flexymc.flexycrates.FlexyCrates
+api-version: '1.21.11'
+author: FlexyMC
+description: Configurable scrolling crate plugin inspired by popular SMP crate GUIs.
+commands:
+  flexycrates:
+    description: FlexyCrates main command
+    aliases: [flexycrate]
+    usage: /flexycrates
+  fc:
+    description: FlexyCrates short command
+    usage: /fc
+permissions:
+  flexycrates.admin:
+    description: Manage FlexyCrates
+    default: op
+    
